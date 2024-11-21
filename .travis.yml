@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.9"
+
+# Install dependencies
+install:
+  - pip install -r requirements.txt
+
+# Run tests
+script:
+  - python static_validate  
+  - pytest tests/
+  
+ notifications:
+  email:
+    recipients:
+      - umairkhurshid@protonmail.com
+    on_failure: always
+
