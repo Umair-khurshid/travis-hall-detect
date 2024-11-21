@@ -49,4 +49,4 @@ if __name__ == "__main__":
     api_params = {'key': 'valid_api_key', 'q': 'London'}
 
     # Run all checks in one go
-    check_generated_code_for_hallucinations(generated_code_file, api_url, api_params)
+    check_code(generated_code_file, api_url, api_params)
