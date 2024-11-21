@@ -8,12 +8,11 @@ install:
 
 # Run tests
 script:
-  - python static_validate  
+  - python static_validate.py  
   - pytest tests/
   
- notifications:
+notifications:
   email:
     recipients:
       - umairkhurshid@protonmail.com
     on_failure: always
-
