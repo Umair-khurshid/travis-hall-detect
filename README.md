@@ -1,4 +1,4 @@
-# travis-hall-detect
+# Travis CI Hallucinaton Detection
 
 This repository demonstrates how to detect hallucinations in AI-generated code using Travis CI. Hallucinations, such as undefined variables, incorrect API calls, and logical inconsistencies, can cause severe issues in production systems. Automating their detection during the CI/CD process ensures better code quality and reduces debugging time.
 
