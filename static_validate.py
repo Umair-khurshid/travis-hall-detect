@@ -31,7 +31,7 @@ def validate_api_call(url, params=None):
     except requests.exceptions.RequestException as e:
         raise ConnectionError(f"Error during API call: {str(e)}")
 
-def check_generated_code_for_hallucinations(file_path, url, params):
+def check_code(file_path, url, params):
     """
     Unified function
     """
