@@ -14,5 +14,5 @@ script:
 notifications:
   email:
     recipients:
-      - umairkhurshid@protonmail.com
+      - notifications@example.com
     on_failure: always
